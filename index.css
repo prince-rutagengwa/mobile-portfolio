@@ -17,6 +17,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 25px;
+  padding-bottom: 10px;
 }
 
 .top-navigation > h1 {
