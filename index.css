@@ -20,12 +20,17 @@ header {
   padding-bottom: 10px;
 }
 
-.top-navigation > h1 {
+.top-navigation > a {
   margin: 8px;
   color: #fff;
-  font: 20%;
+  font: 100%;
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.top-navigation > a:hover {
+  cursor: grab;
 }
 
 .bio-container {
