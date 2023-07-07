@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1c1a19;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('./images/Illustration.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 100vh;
+}
+
+header {
+  background-color: #3c3a39;
+}
+
+.top-navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  padding-bottom: 10px;
+}
+
+.top-navigation > a {
+  margin: 8px;
+  color: #fff;
+  font: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.top-navigation > a:hover {
+  cursor: grab;
+}
+
+.bio-container {
+  margin: 114px 24px;
+}
+
+.bio-container > div > h1 {
+  padding-top: 10px;
+  padding-right: 5px;
+  margin-bottom: 0;
+  color: #ff6b00;
+  font: bolder;
+  font-family: 'Crete Round', sans-serif;
+  font-size: 56px;
+}
+
+.bio-container > div > p {
+  margin: 12px auto;
+  color: #fff;
+}
+
+.bio-container > div > h3 {
+  color: #fff5e1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+
+.bio-container > ul {
+  margin: 0;
+}
+
+.icon-container {
+  display: flex;
+  list-style: none;
+  margin-right: 112px;
+  margin-left: 0;
+  padding-left: 0;
+}
