@@ -58,9 +58,14 @@ header {
   font-size: 24px;
 }
 
+.bio-container > ul {
+  margin: 0;
+}
+
 .icon-container {
   display: flex;
   list-style: none;
-  justify-content: space-between;
   margin-right: 112px;
+  margin-left: 0;
+  padding-left: 0;
 }
