@@ -7,10 +7,10 @@ body {
 
 .divider {
   width: 327px;
-height: 0px;
-flex-shrink: 0;
-stroke-width: 1px;
-stroke: #FFF;
+  height: 0;
+  flex-shrink: 0;
+  stroke-width: 1px;
+  stroke: #fff;
 }
 
 .section-one {
@@ -117,7 +117,7 @@ header {
   padding: 12px;
   align-items: center;
   gap: 10px;
-  background: var(--theme-3-primary-1, #FF6B00);
+  background: var(--theme-3-primary-1, #ff6b00);
 }
 
 .see-project > a {
@@ -319,21 +319,6 @@ footer > ul {
   border: 1px solid var(--neutrals-n-90, #8993a4);
   background: var(--neutrals-n-0, #fff);
   margin: 10px auto;
-
-  /* padding: 12px; */
-}
-
-/* first button */
-.see-project {
-  width: 124px;
-  height: 48px;
-  background: var(--theme-3-primary-1, #ff6b00);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: none;
-  flex-shrink: 0;
-  padding: 0;
 }
 
 .section-three {
@@ -510,7 +495,6 @@ form > button {
   list-style: none;
   align-items: center;
   color: #fff;
-  padding: 0 12px;
 }
 
 .language-container > ul > li {
@@ -563,7 +547,6 @@ form > button {
 }
 
 .frameworks-container > ul > li {
-
   list-style: none;
   align-items: center;
   padding: 12px;
