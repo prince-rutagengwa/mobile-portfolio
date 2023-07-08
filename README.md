@@ -33,7 +33,7 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+FrontEnd: HTML and CSS
 
 <details>
   <summary>Client</summary>
@@ -60,7 +60,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[HTML&CSS]**
+- **[Mobile Responsive Design]**
+- **[Well-Structured Semantic HTML]**
+- **[Mobile Responsive Design]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

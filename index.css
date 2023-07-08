@@ -1,7 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  width: 375px;
+  height: auto 6844px;
+  background: var(--theme-2-neutral-11, #fff);
 }
 
 .section-one {
@@ -50,12 +52,66 @@ header {
 
 .top-navigation > a {
   margin: 8px;
-  color: #fff;
-  font: 100%;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-family: Roboto, sans-serif;
   text-decoration: none;
   padding: 10px 12px;
+  color: var(--theme-3-neutral-11, #fff);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.btn-change:hover {
+  display: inline-flex;
+  padding: 12px;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #f55800;
+  background: var(--theme-3-primary-4, #fff5e1);
+  color: #f55800;
+  text-align: justify;
+  font-family: Inter, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.51px;
+}
+
+.btn-change:active {
+  display: inline-flex;
+  padding: 12px;
+  align-items: center;
+  gap: 10px;
+  background: #e05304;
+  color: var(--theme-3-neutral-9, #f4f1f0);
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.51px;
+}
+
+.btn-change:disabled {
+  display: inline-flex;
+  padding: 12px;
+  align-items: center;
+  gap: 10px;
+  color: var(--theme-3-neutral-3, #5b5957);
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.51px;
+  background: var(--theme-3-neutral-9, #f4f1f0);
+  opacity: 0.6;
+  cursor: not-allowed;
 }
 
 .see-project > a {
@@ -525,7 +581,7 @@ form > button {
 
 .section-six > h2 {
   width: 327px;
-  height: 216px;
+  height: 262px;
   color: var(--neutrals-n-800, #172b4d);
   text-align: center;
   font-family: Inter, sans-serif;
@@ -547,7 +603,6 @@ form > button {
   width: auto 375px;
   height: auto 890px;
   padding: 120px 24px;
-  margin: 120px 24px;
 }
 
 form {
