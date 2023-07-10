@@ -357,14 +357,13 @@ footer > ul {
 }
 
 .background-holder {
-  background: linear-gradient(181deg, rgba(38, 38, 38, 0) 0.34%, rgba(38, 38, 38, 0.9) 61.21%), url(./final-images/placeholder.png), lightgray 50% / cover no-repeat;
+  background: linear-gradient(181deg, rgba(38, 38, 38, 0) 0.34%, rgba(38, 38, 38, 0.9) 61.21%), url(./final-images/placeholder.png), lightgray 100% / cover no-repeat;
   width: auto 333px;
-  height: auto 260px;
+  height: 350px;
   padding: 8px 16px;
 }
 
 .profesional-holder > li {
-  width: 20%;
   float: left;
 }
 .profesional-holder {
