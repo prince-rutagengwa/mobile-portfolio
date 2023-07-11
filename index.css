@@ -633,15 +633,17 @@ form {
   flex-direction: column;
 }
 
-form > input {
-  border-bottom: 10px solid gray;
+form input {
+  border: none;
+  border-bottom: 1px solid var(--theme-3-neutral-8, #DBD8D7);
+  margin: 1.5rem 0;
+  padding: 0 .94rem;
 }
 
 #full-name {
   display: flex;
-  padding: 15px 16px;
-  width: 295px;
-  height: 18px;
+  /* width: 295px; */
+  /* height: 18px; */
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
@@ -651,19 +653,17 @@ form > input {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  border: none;
 }
 
 #email {
   display: flex;
-  width: 327px;
-  height: 48px;
+  /* width: 327px; */
+  /* height: 48px; */
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  border: none;
-  padding: 15px 16px;
-  padding-top: 47px;
+  /* margin: 1.5rem 0; */
+  /* padding-top: 47px; */
 }
 
 #feedback {
