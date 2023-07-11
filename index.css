@@ -639,6 +639,10 @@ form input {
   padding: 15px 15px;
 }
 
+form button {
+  max-width: 131px;
+}
+
 #full-name {
   /* width: 295px; */
   /* height: 18px; */
