@@ -649,7 +649,7 @@ form button {
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
-  color: var(--theme-3-neutral-6, #979493);
+  color: var(--theme-3-neutral-6, #111111);
   font-family: Inter, sans-serif;
   font-size: 15px;
   font-style: normal;
@@ -657,7 +657,7 @@ form button {
   line-height: 24px;
 }
 
-#email {
+#mail {
   /* width: 327px; */
   /* height: 48px; */
   justify-content: center;
@@ -685,6 +685,18 @@ form button {
   /* width: 327px; */
   height: 90px;
   background: var(--theme-3-neutral-10, #fbf8f7);
+}
+
+input:invalid {
+  border: 2px red;
+}
+
+input:valid {
+  border: 2px solid black;
+}
+
+input:invalid:required {
+  background-image: #fff;
 }
 
 footer {
