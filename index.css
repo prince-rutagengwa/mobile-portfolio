@@ -438,9 +438,7 @@ form > button {
   letter-spacing: 0.51px;
   background: var(--theme-3-primary-1, #ff6b00);
   border: none;
-  margin: 95px;
-  margin-bottom: 120px;
-  margin-top: 24px;
+  margin: 24px auto 120px;
 }
 
 .section-four > div > button {
