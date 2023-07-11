@@ -421,13 +421,13 @@ footer > ul {
 }
 
 form > button {
-  display: flex;
+  /* display: flex; */
   padding: 12px;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  width: auto 131px;
-  height: auto 48px;
+  /* width: auto 131px;
+  height: auto 48px; */
   color: var(--theme-2-neutral-11, #fff);
   text-align: center;
   font-family: Inter, sans-serif;
@@ -439,7 +439,7 @@ form > button {
   background: var(--theme-3-primary-1, #ff6b00);
   border: none;
   margin: 95px;
-  margin-bottom: 78px;
+  margin-bottom: 120px;
   margin-top: 24px;
 }
 
@@ -625,7 +625,7 @@ form > button {
 .section-six {
   width: auto 375px;
   height: auto 890px;
-  padding: 120px 24px;
+  padding: 0 24px;
 }
 
 form {
@@ -666,7 +666,6 @@ form input {
 }
 
 #feedback {
-
   /* width: 303px;
   height: 90px; */
   flex-direction: column;
@@ -679,8 +678,8 @@ form input {
   line-height: 24px;
   border: none;
   padding: 12px;
-  width: 327px;
-  height: 114px;
+  /* width: 327px; */
+  height: 90px;
   background: var(--theme-3-neutral-10, #fbf8f7);
 }
 
