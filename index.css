@@ -438,7 +438,7 @@ form > button {
   letter-spacing: 0.51px;
   background: var(--theme-3-primary-1, #ff6b00);
   border: none;
-  margin: 24px auto 120px;
+  margin: 24px auto 62px;
 }
 
 .section-four > div > button {
@@ -601,7 +601,7 @@ form > button {
 }
 
 .section-six > h2 {
-  width: 327px;
+  max-width: 327px;
   height: 262px;
   color: var(--neutrals-n-800, #172b4d);
   text-align: center;
@@ -610,6 +610,7 @@ form > button {
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
+  margin: 0 auto;
 }
 
 .section-five > div > h2 {
@@ -624,6 +625,7 @@ form > button {
   width: auto 375px;
   height: auto 890px;
   padding: 0 24px;
+  margin: 120px 0 58px;
 }
 
 form {
