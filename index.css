@@ -636,12 +636,10 @@ form {
 form input {
   border: none;
   border-bottom: 1px solid var(--theme-3-neutral-8, #DBD8D7);
-  margin: 1.5rem 0;
-  padding: 0 .94rem;
+  padding: 15px 15px;
 }
 
 #full-name {
-  display: flex;
   /* width: 295px; */
   /* height: 18px; */
   flex-direction: column;
@@ -656,18 +654,18 @@ form input {
 }
 
 #email {
-  display: flex;
   /* width: 327px; */
   /* height: 48px; */
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
+  margin: 1.5rem 0;
+
   /* margin: 1.5rem 0; */
   /* padding-top: 47px; */
 }
 
 #feedback {
-  display: flex;
 
   /* width: 303px;
   height: 90px; */
