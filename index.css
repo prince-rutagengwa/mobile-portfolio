@@ -52,9 +52,6 @@ header {
   height: auto 48px;
   display: flex;
   justify-content: space-between;
-
-  /* padding: 25px;
-  padding-bottom: 10px; */
 }
 
 .top-navigation > a {
@@ -72,25 +69,16 @@ header {
 
 .btn-change:active {
   padding: 12px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   color: #f4f1f0;
   background: #e05304;
   font-family: Inter, sans-serif;
   font-size: 17px;
   font-style: 700;
-  line-height: 24px;
-  letter-spacing: 0.51px;
 }
 
 .btn-change:hover {
-  width: auto 83px;
-  height: auto 48px;
   padding: 12px;
   color: #f55800;
-  text-align: justify;
   font-size: 17px;
   font-style: normal;
   font-weight: 700;
@@ -111,20 +99,13 @@ header {
 }
 
 .see-project {
-  width: auto 124px;
-  height: auto 48px;
-  display: flex;
   padding: 12px;
-  align-items: center;
-  gap: 10px;
+  border: none;
   background: var(--theme-3-primary-1, #ff6b00);
 }
 
 .see-project > a {
-  width: auto 100px;
-  height: auto 24px;
   color: var(--theme-2-neutral-11, #fff);
-  text-align: center;
   font-family: Inter, sans-serif;
   font-size: 17px;
   font-style: normal;
@@ -213,10 +194,6 @@ header {
   line-height: 24px;
   width: 327px;
   height: 123px;
-
-  /* margin-top: 0;
-  padding-top: auto;
-  padding-right: 24px; */
 }
 
 .info-holder > h3 {
@@ -421,21 +398,13 @@ footer > ul {
 }
 
 form > button {
-  /* display: flex; */
   padding: 12px;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  /* width: auto 131px;
-  height: auto 48px; */
   color: var(--theme-2-neutral-11, #fff);
-  text-align: center;
   font-family: Inter, sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
-  letter-spacing: 0.51px;
   background: var(--theme-3-primary-1, #ff6b00);
   border: none;
   margin: 24px auto 62px;
@@ -457,12 +426,6 @@ form > button {
   flex-direction: column;
 }
 
-/* .section-five > img {
-  margin-top: 89px;
-  margin-bottom: 8px;
-  stroke: #fff;
-} */
-
 .language-container {
   display: flex;
   flex-direction: column;
@@ -474,7 +437,6 @@ form > button {
 }
 
 .language-container > h2 {
-  /* width: 164px; */
   height: 24px;
   color: #fff;
   font-family: InaiMathi, sans-serif;
@@ -521,8 +483,6 @@ form > button {
 
 .frameworks-container > h2 {
   margin: 24px;
-
-  /* width: 227px; */
   height: 24px;
   color: #fff;
   text-align: center;
@@ -566,8 +526,6 @@ form > button {
 
 .skills-container > h2 {
   margin: 24px;
-
-  /*  width: 115px; */
   height: 24px;
   color: #fff;
   font-family: Inter, sans-serif;
@@ -644,8 +602,6 @@ form button {
 }
 
 #full-name {
-  /* width: 295px; */
-  /* height: 18px; */
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
@@ -658,20 +614,13 @@ form button {
 }
 
 #mail {
-  /* width: 327px; */
-  /* height: 48px; */
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
   margin: 1.5rem 0;
-
-  /* margin: 1.5rem 0; */
-  /* padding-top: 47px; */
 }
 
 #feedback {
-  /* width: 303px;
-  height: 90px; */
   flex-direction: column;
   flex-shrink: 0;
   color: var(--theme-3-neutral-2, #3c3a39);
@@ -682,7 +631,6 @@ form button {
   line-height: 24px;
   border: none;
   padding: 12px;
-  /* width: 327px; */
   height: 90px;
   background: var(--theme-3-neutral-10, #fbf8f7);
 }
