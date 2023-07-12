@@ -12,7 +12,7 @@
     <title>Mobile Portfolio</title>
 </head>
 <body>
-    <header>
+    <header class="header-container">
       <div class="time-bar">
         <img class="time-status" src="./final-images/↳ Time.png" alt="">
         <img src="./final-images/Group 4.png" alt="">
@@ -42,7 +42,7 @@
         </ul>
       </div>
     </section>
-    <section>
+    <section >
       <div class="section-two">
         <h1>My Recent Works</h1>
           <img class="first-divider" src="./final-images/Vector.png" alt="a divider">
@@ -154,18 +154,18 @@
        </div>
     </section>
     <section class="section-six">
-      <h2>I'm always interested in hearing about new projects, 
+      <h2>I'm always interested in hearing about new projects,
         so if you'd like to chat please get in touch.
       </h2>
-      <form>
-        <!-- <label for="full-name">Full Name:</label> -->
-        <input type="text" id="full-name" name="full-name" placeholder="Full name" required>
+      <form action="https://formspree.io/f/xjvqvpaj" method="POST">
+        <label for="full-name"></label>
+        <input type="text" id="full-name" name="full-name" maxlength="30" pattern="([A-Za-z])\w+" placeholder="Full name" required>
 
-        <!-- <label for="email">Email Address:</label> -->
-        <input type="text" id="email" name="email" placeholder="Email Address" required>
+        <label for="mail"></label>
+        <input type="email" id="mail" name="email" pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9 -]+\.[a-z]{2,}" placeholder="Email Address" required>
 
-        <!-- <label for="feedback">Feedback:</label> -->
-        <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Write me something..." required></textarea>
+        <label for="feedback"></label>
+        <textarea name="feedback" id="feedback" cols="30" rows="10" maxlength="500" placeholder="Write me something..." required></textarea>
 
         <button class="btn-change" type="submit">Get in touch</button>
       </form>
