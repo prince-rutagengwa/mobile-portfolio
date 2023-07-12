@@ -410,6 +410,10 @@ form > button {
   margin: 24px auto 62px;
 }
 
+form button {
+  max-width: 131px;
+}
+
 .section-four > div > button {
   display: flex;
   align-items: center;
@@ -593,19 +597,15 @@ form {
 
 form input {
   border: none;
-  border-bottom: 1px solid var(--theme-3-neutral-8, #DBD8D7);
+  border-bottom: 1px solid var(--theme-3-neutral-8, #dbd8d7);
   padding: 15px 15px;
-}
-
-form button {
-  max-width: 131px;
 }
 
 #full-name {
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
-  color: var(--theme-3-neutral-6, #111111);
+  color: var(--theme-3-neutral-6, #111);
   font-family: Inter, sans-serif;
   font-size: 15px;
   font-style: normal;
