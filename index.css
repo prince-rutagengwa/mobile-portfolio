@@ -231,6 +231,11 @@ footer > ul {
   margin-right: 112px;
   margin-left: 0;
   padding-left: 0;
+  transition: background-color 1s ease-in-out;
+}
+.icon-container:hover{
+  background-color: #00ff15;
+  cursor: pointer;
 }
 
 .section-two {
