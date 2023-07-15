@@ -718,6 +718,7 @@ footer {
     display: flex;
     justify-content: space-around;
     padding-top: 130px;
+
     /* gap: 24px; */
   }
 
@@ -780,6 +781,7 @@ footer {
     font-style: normal;
     font-weight: 700;
     line-height: 20px;
+    padding-left: 142px;
   }
 
   .desktop-navigation-bar > li > a {
@@ -829,11 +831,13 @@ footer {
     display: grid;
     width: 90%;
     height: auto;
+
     /* place-items: center; */
     justify-content: center;
     align-items: center;
     gap: 24px;
-   /*  padding: 4%; */
+
+    /*  padding: 4%; */
     grid-template-columns: repeat(auto-fit, minmax(369px, 1fr));
     max-width: 65%;
     margin: 0 auto;
@@ -924,11 +928,6 @@ footer {
     height: 100%;
     display: flex;
     justify-content: space-between;
-    /* padding: 142px auto 142px; */
-  }
-
-  .top-navigation > a {
-    padding-left: 142px;
   }
 
   .section-one {
@@ -1099,7 +1098,9 @@ footer {
     display: flex;
     justify-content: center;
     margin: 130px 132px;
+
     /* padding: 130px 24px 130px auto; */
+
     /* margin: auto 142px auto 135px; */
   }
 
