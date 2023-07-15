@@ -15,12 +15,18 @@
     <header class="header-container">
       <div class="time-bar">
         <img class="time-status" src="./final-images/↳ Time.png" alt="">
-        <img src="./final-images/Group 4.png" alt="">
+        <img class="time-status" src="./final-images/Group 4.png" alt="">
       </div>
        <div class="top-navigation">
           <a href="#">My Logo</a>
           <nav class="menu-bar">
-            <img src="./images/Enabled.png" alt="">
+            <ul class="desktop-navigation-bar">
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#"><img src="./Desktop-images/Icon - Mail.png" alt=""></a></li>
+            </ul>  
+            <img class="burger-nav" src="./images/Enabled.png" alt="">
           </nav>
        </div>
     </header>
@@ -42,16 +48,20 @@
         </ul>
       </div>
     </section>
-    <section >
+    <section id="second-section">
       <div class="section-two">
-        <h1>My Recent Works</h1>
+        <div class="recent-woks-title">
+          <h1>My Recent Works</h1>
           <img class="first-divider" src="./final-images/Vector.png" alt="a divider">
-          <img class="yoga-image" src="./final-images/Img Placeholder.png" alt="a lady doing yoga">
-          <h2>Multi-Post Stories</h2>
-          <p>A daily selection of privately personalized reads; no accounts or sign-ups required.
-            has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
-            a standard dummy text.
-          </p>
+        </div>
+    <div class="yoga-content-container">
+            <img class="yoga-image" src="./Desktop-images/Img Placeholder (1).png" alt="a lady doing yoga">
+        <div class="side-content">
+              <h2>Multi-Post Stories</h2>
+              <p>A daily selection of privately personalized reads; no accounts or sign-ups required.
+                has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+                a standard dummy text.
+              </p>
           <ul class="stack-holder">
             <li><a href="#">CSS</a></li>
             <li><a href="#">HTML</a></li>
@@ -60,22 +70,15 @@
           </ul>
           <button class="see-project btn-change"><a href="#">See project</a></button>
         </div>
-      <div class="cards-container">
-        <div class="section-three">
-          <div class="background-holder">
-            <h1>Profesional Art Printing Data</h1>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-            <ul class="profesional-holder">
-              <li><a href="#">HTML</a></li>
-              <li><a href="#">Bootstrap</a></li>
-              <li><a href="#">Ruby</a></li>
-            </ul>
-          </div>
+      </div>
+      <div class="card-flex-container cards-container">
+        <div class="card-one section-three first-card-container">
+          <!-- <img class="first-card" src="./Desktop-images/Img Placeholder.png" alt=""> -->
           <button class="project-btn btn-change"><a href="#">See project</a></button>
         </div>
-        <div class="section-three">
+        <div class="card-two section-three">
           <div class="background-holder">
-            <h1>Profesional Art Printing Data</h1>
+            <h1>Data Dashboard Healthcare</h1>
             <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
             <ul class="profesional-holder">
               <li><a href="#">HTML</a></li>
@@ -83,11 +86,11 @@
               <li><a href="#">Ruby</a></li>
             </ul>
           </div>
-          <button class="project-btn btn-change"><a href="#">See project</a></button>
+          <button class="project-btn btn-change btn-hide"><a href="#">See project</a></button>
         </div>
-        <div class="section-three">
+        <div class="card-three section-three">
           <div class="background-holder">
-            <h1>Profesional Art Printing Data</h1>
+            <h1>Website Portfolio</h1>
             <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
             <ul class="profesional-holder">
               <li><a href="#">HTML</a></li>
@@ -95,11 +98,11 @@
               <li><a href="#">Ruby</a></li>
             </ul>
           </div>
-          <button class="project-btn btn-change"><a href="#">See project</a></button>
+          <button class="project-btn btn-change btn-hide"><a href="#">See project</a></button>
         </div>
-        <div class="section-three">
+        <div class="card-four section-three">
           <div class="background-holder">
-            <h1>Profesional Art Printing Data</h1>
+            <h1>Profesional Art Printing Data More</h1>
             <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
             <ul class="profesional-holder">
               <li><a href="#">HTML</a></li>
@@ -107,9 +110,34 @@
               <li><a href="#">Ruby</a></li>
             </ul>
           </div>
-          <button class="project-btn btn-change"><a href="#">See project</a></button>
+          <button class="project-btn btn-change btn-hide"><a href="#">See project</a></button>
+        </div>
+        <div class="card-five section-three">
+          <div class="background-holder">
+            <h1>Data Dashboard Healthcare</h1>
+            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+            <ul class="profesional-holder">
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">Bootstrap</a></li>
+              <li><a href="#">Ruby</a></li>
+            </ul>
+          </div>
+          <button class="project-btn btn-change btn-hide"><a href="#">See project</a></button>
+        </div>
+        <div class="card-six section-three">
+          <div class="background-holder">
+            <h1>Website Portfolio</h1>
+            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
+            <ul class="profesional-holder">
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">Bootstrap</a></li>
+              <li><a href="#">Ruby</a></li>
+            </ul>
+          </div>
+          <button class="project-btn btn-change btn-hide"><a href="#">See project</a></button>
         </div>
       </div>
+    </div>
     </section>
     <section class="section-four">
       <div class="about-me-ctn">
@@ -123,35 +151,36 @@
     </section>
     <section class="section-five">
       <hr class="divider">
-     <!--  <img class="divider" src="./final-images/Devider.png" alt=""> -->
-      <div class="language-container">
-         <h2><img src="./final-images/Rectangle 55.png" alt="">Language</h2>
-         <ul>
-          <li>JavaScript</li>
-          <li>Ruby</li>
-          <li>HTML</li>
-          <li>CSS</li>
-         </ul>
+      <div class="data-container">
+        <div class="language-container">
+          <h2><img src="./final-images/Rectangle 55.png" alt="">Language</h2>
+          <ul>
+           <li>JavaScript</li>
+           <li>Ruby</li>
+           <li>HTML</li>
+           <li>CSS</li>
+          </ul>
+       </div>
+        <div class="frameworks-container">
+           <h2><img src="./final-images/Rectangle 56.png" alt="">Frameworks</h2>
+           <ul>
+            <li>React.js</li>
+            <li>Ruby on Rails</li>
+            <li>RSpec</li>
+            <li>Capybara</li>
+           </ul>
+        </div>
+        <div class="skills-container">
+           <h2><img src="./final-images/Rectangle 57.png" alt="">Skills</h2>
+           <ul>
+            <li>Database Management</li>
+            <li>Version Control</li>
+            <li>CLI</li>
+            <li>API Design</li>
+            <li>Web Development</li>
+           </ul>
+        </div>
       </div>
-       <div class="frameworks-container">
-          <h2><img src="./final-images/Rectangle 56.png" alt="">Frameworks</h2>
-          <ul>
-           <li>React.js</li>
-           <li>Ruby on Rails</li>
-           <li>RSpec</li>
-           <li>Capybara</li>
-          </ul>
-       </div>
-       <div class="skills-container">
-          <h2><img src="./final-images/Rectangle 57.png" alt="">Skills</h2>
-          <ul>
-           <li>Database Management</li>
-           <li>Version Control</li>
-           <li>CLI</li>
-           <li>API Design</li>
-           <li>Web Development</li>
-          </ul>
-       </div>
     </section>
     <section class="section-six">
       <h2>I'm always interested in hearing about new projects,
@@ -179,7 +208,7 @@
         <li><a href="#"><img src="./final-images/Disabled2.png" alt=""></a></li>
         <li><a href="#"><img src="./final-images/Disabled3.png" alt=""></a></li>
       </ul>
-      <img src="./final-images/Light.png" alt="home">
+      <img class="home-icon" src="./final-images/Light.png" alt="home">
     </footer>
 </body>
 </html>
