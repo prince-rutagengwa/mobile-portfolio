@@ -706,8 +706,8 @@ footer {
     width: 369px;
   }
 
-  .recent-woks-title > .first-divider {
-    width: 794px;
+  .first-divider {
+    width: 50%;
     height: 2px;
     stroke-width: 1px;
     stroke: #212121;
@@ -718,7 +718,7 @@ footer {
     display: flex;
     justify-content: space-around;
     padding-top: 130px;
-    gap: 24px;
+    /* gap: 24px; */
   }
 
   .recent-woks-title > h1 {
@@ -728,16 +728,19 @@ footer {
     font-style: normal;
     font-weight: 400;
     line-height: 52px;
+    margin-left: 75px;
   }
 
   .yoga-image {
-    width: 684px;
-    height: 448px;
+    width: 60%;
+    height: auto;
+    justify-content: center;
     margin-bottom: 24px;
   }
 
   .yoga-content-container {
     display: flex;
+    justify-content: center;
     gap: 24px;
     width: 100%;
     height: 100%;
@@ -824,10 +827,16 @@ footer {
 
   .cards-container {
     display: grid;
-    width: auto 369px;
-    height: auto 435px;
+    width: 90%;
+    height: auto;
+    /* place-items: center; */
+    justify-content: center;
+    align-items: center;
     gap: 24px;
-    grid-template-columns: repeat(3, 1fr);
+   /*  padding: 4%; */
+    grid-template-columns: repeat(auto-fit, minmax(369px, 1fr));
+    max-width: 65%;
+    margin: 0 auto;
     grid-template-areas:
       'card-one card-two card-three'
       'card-four card-five card-six';
@@ -843,16 +852,14 @@ footer {
 
   .card-two {
     grid-area: card-two;
-    background-image: url(./Desktop-images/card2.png);
-    background-repeat: no-repeat;
+    background: linear-gradient(181deg, rgba(38, 38, 38, 0) 0.34%, rgba(38, 38, 38, 0.9) 83.33%), url(./Desktop-images/card2.png), lightgray 50% / cover no-repeat;
     padding: 0;
     margin-bottom: 13px;
   }
 
   .card-three {
     grid-area: card-three;
-    background-image: url(./Desktop-images/card3.png);
-    background-repeat: no-repeat;
+    background: linear-gradient(181deg, rgba(38, 38, 38, 0) 0.34%, rgba(38, 38, 38, 0.9) 83.33%), url(./Desktop-images/card3.png), lightgray 50% / cover no-repeat;
     padding: 0;
     margin-bottom: 13px;
   }
@@ -860,23 +867,20 @@ footer {
   .card-four {
     grid-area: card-four;
     background: linear-gradient(181deg, rgba(38, 38, 38, 0) 0.34%, rgba(38, 38, 38, 0.9) 83.33%), url(./Desktop-images/Img\ Placeholder.png), lightgray 50% / cover no-repeat;
-    background-repeat: no-repeat;
     padding: 0;
     margin-bottom: 13px;
   }
 
   .card-five {
     grid-area: card-five;
-    background-image: url(./Desktop-images/card2.png);
-    background-repeat: no-repeat;
+    background: linear-gradient(181deg, rgba(38, 38, 38, 0) 0.34%, rgba(38, 38, 38, 0.9) 83.33%), url(./Desktop-images/card2.png), lightgray 50% / cover no-repeat;
     padding: 0;
     margin-bottom: 13px;
   }
 
   .card-six {
     grid-area: card-six;
-    background-image: url(./Desktop-images/card3.png);
-    background-repeat: no-repeat;
+    background: linear-gradient(181deg, rgba(38, 38, 38, 0) 0.34%, rgba(38, 38, 38, 0.9) 83.33%), url(./Desktop-images/card3.png), lightgray 50% / cover no-repeat;
     padding: 0;
     margin-bottom: 13px;
   }
@@ -912,21 +916,28 @@ footer {
     list-style: none;
     gap: 24px;
     justify-content: space-between;
+    padding-right: 142px;
   }
 
   .top-navigation {
     width: 100%;
     height: 100%;
     display: flex;
-    padding: 12px 142px auto;
+    justify-content: space-between;
+    /* padding: 142px auto 142px; */
+  }
+
+  .top-navigation > a {
+    padding-left: 142px;
   }
 
   .section-one {
     display: flex;
     background-image: url(./Desktop-images/Illustration-header.png);
     background-repeat: no-repeat;
+    background-position: center right;
     width: auto 1440px;
-    height: 870px;
+    height: auto 870px;
   }
 
   .info-holder > h1 {
@@ -1086,26 +1097,28 @@ footer {
 
   .section-six {
     display: flex;
-    justify-content: flex-start;
-    padding: 130px;
-    margin: auto 142px auto 135px;
+    justify-content: center;
+    margin: 130px 132px;
+    /* padding: 130px 24px 130px auto; */
+    /* margin: auto 142px auto 135px; */
   }
 
   .section-six > h2 {
-    width: 455px;
-    height: 256px;
+    text-align: left;
+    width: 45%;
+    height: auto;
     color: #262626;
     font-family: Inter, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: 52px;
-    padding: auto;
   }
 
   .section-six > form {
-    gap: 24px;
-    width: 684px;
+    /* gap: 24px; */
+    width: 55%;
+    margin-right: 80px;
   }
 
   footer > .home-icon {
