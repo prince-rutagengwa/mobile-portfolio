@@ -718,8 +718,6 @@ footer {
     display: flex;
     justify-content: space-around;
     padding-top: 130px;
-
-    /* gap: 24px; */
   }
 
   .recent-woks-title > h1 {
@@ -934,7 +932,7 @@ footer {
     display: flex;
     background-image: url(./Desktop-images/Illustration-header.png);
     background-repeat: no-repeat;
-    background-position: center right;
+    background-position: top right;
     width: auto 1440px;
     height: auto 870px;
   }
