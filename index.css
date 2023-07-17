@@ -27,8 +27,18 @@ body {
   padding: 120px 24px;
 }
 
-.data-container > h2 {
+.data-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.language-title,
+.skills-title {
   text-align: center;
+}
+
+.data-container img {
+  margin-right: 12px;
 }
 
 .time-bar {
