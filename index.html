@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&display=swap">
     <link rel="stylesheet" href="./fonts/CreteRound-Italic.ttf">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100;400;700&family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
     </style>
@@ -14,20 +15,34 @@
 </head>
 <body>
     <header class="header-container">
-      <div class="time-bar">
-        <img class="time-status" src="./final-images/↳ Time.png" alt="">
-        <img class="time-status" src="./final-images/Group 4.png" alt="">
-      </div>
-       <div class="top-navigation">
-          <a href="#">My Logo</a>
-          <nav class="menu-bar">
-            <ul class="desktop-navigation-bar">
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#"><img src="./Desktop-images/Icon - Mail.png" alt=""></a></li>
-            </ul>  
-            <img class="burger-nav" src="./images/Enabled.png" alt="">
+      <div class="time-nav-container">
+        <div class="time-bar">
+          <img class="time-status" src="./final-images/↳ Time.png" alt="">
+          <img class="time-status" src="./final-images/Group 4.png" alt="">
+        </div>
+          <nav class="menu-container">
+            <a class="my-logo" href="#">My Logo</a>
+            <ul class="nav-menu">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact</a>
+              </li>
+              <li class="nav-item nav-mail-item">
+                <a class="nav-link" href="#">
+                  <img class="nav-mail-icon" src="./Desktop-images/Icon - Mail.png" alt="">
+                </a>
+              </li>
+            </ul>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
           </nav>
        </div>
     </header>
@@ -211,5 +226,6 @@
       </ul>
       <img class="home-icon" src="./final-images/Light.png" alt="home">
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
