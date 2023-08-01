@@ -22,5 +22,7 @@ document.querySelectorAll('.nav-link').forEach((n) => {
     navMenu.classList.remove('active');
     menuContainer.classList.remove('active');
     timeBar.classList.remove('active');
+    homeIcon.classList.remove('active');
+    navMailItem.classList.remove('active');
   });
 });
